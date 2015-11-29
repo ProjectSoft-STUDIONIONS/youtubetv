@@ -6,7 +6,7 @@
  * @category        tv
  * @name            youtubetv
  * @internal        @caption Ссылка на видео youtube
- * @internal        @input_type custom_tv
+ * @internal        @input_type custom_tv:youtubetv
  * @internal        @input_options 
  * @internal        @input_default 
  * @internal        @output_widget 
