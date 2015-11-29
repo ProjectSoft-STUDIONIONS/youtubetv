@@ -1,7 +1,7 @@
 <?php
 /*
- youtubetv — custom TV for MODx Evolution
- Version 1.0 by ProjectSoft, projectsoft@studionions.com
+** youtubetv — custom TV for MODx Evolution
+** Version 1.0 by ProjectSoft, projectsoft@studionions.com
 */
 if (IN_MANAGER_MODE != 'true') {
  die('<h1>Error:</h1><p>Please use the MODx content manager instead of accessing this file directly.</p>');
