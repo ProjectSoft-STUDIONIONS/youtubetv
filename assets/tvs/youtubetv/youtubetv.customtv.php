@@ -1,11 +1,12 @@
 <?php
 /*
- youtubetv — custom TV for MODx Evolution
- Version 1.0 by ProjectSoft, projectsoft@studionions.com
+** youtubetv — custom TV for MODx Evolution
+** Version 1.0 by ProjectSoft, projectsoft@studionions.com
 */
 if (IN_MANAGER_MODE != 'true') {
  die('<h1>Error:</h1><p>Please use the MODx content manager instead of accessing this file directly.</p>');
 }
+$site_url = MODX_SITE_URL;
 $includeOnce_ytv = <<<EOD
 <style>
 .iframe_block {
@@ -54,7 +55,7 @@ $includeOnce_ytv = <<<EOD
 		if(match){
 			if(match.length){
 				img = document.createElement("img");
-				img.src = "../assets/images/youtube/default/"+match[1]+".jpg";
+				img.src = "{$site_url}assets/images/youtube/default/"+match[1]+".jpg";
 				iframe = '<iframe class="embed-responsive-item" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/'+match[1]+'?rel=0"></iframe>';
 				span.appendChild(img);
 				div.innerHTML = iframe;
