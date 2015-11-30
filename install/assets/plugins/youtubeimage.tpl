@@ -13,7 +13,7 @@
  * @author      ProjectSoft
  * @internal    @events OnBeforeDocFormSave
  * @internal    @modx_category YouTube
- * @internal    @properties
+ * @internal    @properties &save_thimbs=Типы сохраняемых перевьюшек;list-multi;maxresdefault,sddefault,hqdefault,mqdefault,default;hqdefault,mqdefault &cache_thumbnail=Пересохранять перевьюшки при сохранении документа?;list;true,false;false &remove_sc=Удалять кавычки в pagetitle?;list;true,false;true
  * @internal    @installset base
  */
 
